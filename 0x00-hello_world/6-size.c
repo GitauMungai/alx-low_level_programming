@@ -2,20 +2,14 @@
 /**
  * main - Entry level
  *
- * @int: first member
- * @float: second member
- * @char: third member
- * @double: forth member
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int intType;
-	float floatType;
-	char charType;
-	double doubleType;
-	printf("Size of int: %lubytes\n,sizeof(intType)");
-	printf("Size of  float: %lubytes\n , sizeof(floatType)");
-	printf("Size of char: %lubytes\n , sizeof(charType)");
-	printf("Size of double: %lubytes\n, sizeof(doubleType)");
+	printf("%lu\n",sizeof(int));
+	printf("%lu\n",sizeof(char));
+	printf("%lu\n",sizeof(long int));
+	printf("%lu\n",sizeof(long long int));
+	printf("%lu\n",sizeof(float));
 	return(0);
 }
