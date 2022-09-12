@@ -1,11 +1,9 @@
 #include<stdio.h>
 
 /**
-* main - Entry point
-*
-*
-*
-*
+* main - prints single digit numbers
+* Description: prints single digits of base 10 starting from 0
+* Return: 0
 */
 int main(void)
 {
@@ -14,8 +12,7 @@ int main(void)
 	for (i = 0; i < 10 ; i++)
 	{
 		printf("%d", i);
-		
-	printf("\n");
 	}
+	printf("\n");
 	return (0);
 }
