@@ -2,15 +2,13 @@
 
 /**
 * main - prints out the alphabet
-* 
-* Description: prints out lowercase alphabet with exceptions of e and q
-* 
+* Description: prints out lowercase with exceptions
 * Return: 0
 */
 int main(void)
 {
-	int i;
-
+	char i;
+	
 	for (i = 'a'; i <= 'z'; i++)
 	{
 		if (i != 'e' && i != 'q')
@@ -19,5 +17,5 @@ int main(void)
 		}
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }
