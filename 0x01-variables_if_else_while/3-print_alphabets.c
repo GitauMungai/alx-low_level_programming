@@ -3,8 +3,6 @@
 /**
 * main - Entry point
 *
-* @i: variable
-*
 * Return: Always 0 (success)
 */
 int main(void)
