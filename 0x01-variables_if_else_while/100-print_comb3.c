@@ -6,22 +6,31 @@
 */
 int main(void)
 {
-	int i, j;
+	int i;
 
-	for (i = 0; i < 10; i++)
+	for (i = 01; i < 90; i++)
 	{
-		for (j = 0; j < 10; j++)
+		if (i == 9 && i <= 10)
 		{
-			putchar((i % 10) + '0');
-			putchar((i % 10) + '0');
-			if (i == 9 && j == 9)
-			{
+			putchar(i);
+			break;
+		}
+		else if (i == 19 && i <= 20)
+		{
+			putchar(i);
+			break;
+		}
+		else if (i == 29 && i <= 30)
+		{
+			putchar(i);
+			break;
+		}
+		else
+		{
 			continue;
-			}
-	putchar(',');
-	putchar(' ');
 		}
 	}
-	putchar('\n');
+	putchar(',');
+	putchar(' ');
 	return (0);
 }

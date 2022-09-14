@@ -1,5 +1,5 @@
-#ifndef MAIN_FILE
-#define MAIN_FILE
+#ifndef MAIN_HEADER
+#define MAIN_HEADER
 
 int _putchar(char c);
 void print_alphabet(void);
@@ -14,4 +14,4 @@ void times_table(void);
 int add(int, int);
 void print_to_98(int n);
 
-
+#endif
