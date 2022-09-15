@@ -5,4 +5,4 @@
 Write a function that prints the sign of a number.
 Write a function that computes the absolute value of an integer.
 Write a function that adds two integers and returns the result.
-
+Write a function that prints all natural numbers from n to 98, followed by a new line
