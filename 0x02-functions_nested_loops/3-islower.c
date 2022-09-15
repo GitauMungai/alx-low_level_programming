@@ -3,8 +3,7 @@
 /**
 * _islower - checks whether c is in lowercase
 * @c: variable to be checked
-* Returns: i for success
-* fail: 0 for error
+* Return: c
 */
 int _islower(int c)
 {
