@@ -7,12 +7,12 @@
 int main(void)
 {
 	int j;
+
 	j = print_last_digit(98);
-	_putchar(j + '0');
 	j = print_last_digit(0);
-	_putchar(j + '0');
 	j = print_last_digit(-1024);
-	_putchar(j + '0');
+	j = print_last_digit(-1024);
+	_putchar('0' + j);
 	_putchar('\n');
 	return (0);
 }
