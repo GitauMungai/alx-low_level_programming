@@ -2,8 +2,8 @@
 
 /**
 * add - adds two integers and returns results
-* @i: first integer
-* @j: second integer
+* @a: first integer
+* @b: second integer
 * Return: result
 */
 int add(int a, int b)
