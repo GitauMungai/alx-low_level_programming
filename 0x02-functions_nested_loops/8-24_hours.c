@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* jack_bauer - prints 
+* jack_bauer - prints
 */
 void jack_bauer(void)
 {
