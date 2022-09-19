@@ -4,7 +4,8 @@
 * main - calls the _puts(char *str) function)
 *
 * Return: 0
-*/int main(void)
+*/
+int main(void)
 {
 	char *str;
 
