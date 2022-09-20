@@ -7,11 +7,18 @@
 */
 void print_array(int *a, int n)
 {
-	int length = sizeof(a);
+	int i;
 
-	for (n = 0; n < length; n++)
+	for (i = 0; i < n; i++)
 	{
-		printf("%d, ", a[n]);
+		if (i != n - 1)
+		{
+			printf("%d, ", a[i]);
+		}
+		else
+		{
+			printf("%d, ", a[i]);
+		}
 	}
 	printf("\n");
 }
